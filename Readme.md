@@ -12,4 +12,4 @@ Main motive was to learn the major topics in AngularJS Architeccture such as com
 Its was a fun experience learning !!   
 
 Screenshots of project :  
-<img src="my-app/images/Angular%20Project">
+<img src="my-app/images/Angular%20Project.png">
