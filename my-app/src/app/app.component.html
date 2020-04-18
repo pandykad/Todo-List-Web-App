@@ -1,0 +1,31 @@
+<div>
+  <img src="../assets/coffee.png"
+  alt="LCD logo"
+  width="100"
+  height="100"
+  class="100"
+  />
+  <h1 class="app-title">Your Todo List</h1>
+</div>
+<div class="container">
+  Add a todo..
+  <br>
+  <input type="text"
+  class="input-text"
+  placeholder="Type a todo"
+  [(ngModel)]="todoValue" 
+  (keyup.enter)="addItem()"
+  />
+  <button class="add-btn" (click)="addItem()">Add Todo</button>
+  <div class="list">
+    <ul>
+      <li *ngFor="let item of list">
+        <input type="checkbox" name="isDone"
+        [(ngModel)]="item.isDone" 
+        />
+        {{item.value}}
+        <button class="btn" (click)="deleteItem(item.id)">Delete</button>
+      </li>
+    </ul>
+  </div>
+</div>
