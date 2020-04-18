@@ -1,7 +1,7 @@
-# AngularJS project
+# An AngularJS project
 ## A basic TODO list webapp
 
-A basic TODO list webapp made to learn the basics of AngularJS Framework.  
+A basic TODO list webapp implemented to learn the basics of AngularJS Framework.  
   
 It consists of the following features :  
 1.User can add new tasks.  
