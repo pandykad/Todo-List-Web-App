@@ -1,5 +1,5 @@
 # An AngularJS project
-## A basic TODO list webapp
+## A TODO List WebApp
 
 A basic TODO list webapp implemented to learn the basics of AngularJS Framework.  
   
